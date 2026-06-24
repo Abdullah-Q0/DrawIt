@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DrawIt</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>DrawIt!</h1>
+    <h1 class = "Title">DrawIt!</h1>
     
     <div class="window"> 
-        <div class="redDot"></div>
-        <div class="yellowDot"></div>
-        <div class="greenDot"></div>
-
-        
+        <div class="topBar">
+            <div class="redDot"></div>
+            <div class="yellowDot"></div>
+            <div class="greenDot"></div>
+        </div>
+        <div class="canvas-area">
+            <div class="canvas-stack" id="canvasStack"></div>
+        </div>
     </div>
 </body>
 </html>

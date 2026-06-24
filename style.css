@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* 
+{
+    font-family:  "Ubuntu Sans";
+}
+
+.Title
+{
+    font-size: 3rem;
+    text-align:center;
+    width:100%;
+}
+
+.window {
+    margin: 2rem;
+    width: auto;
+    height: 50%;
+    border: 1px solid #b8b8bd;
+    border-radius: 10px;       
+    overflow: hidden;          
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.topBar {
+    height: 38px;
+    background: linear-gradient(to bottom, #ececee, #dcdcdf);
+    border-bottom: 1px solid #b8b8bd;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+}
+
+.redDot, .yellowDot, .greenDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.redDot    { background: #ff5f57; }
+.yellowDot { background: #febc2e; }
+.greenDot  { background: #28c840; }
