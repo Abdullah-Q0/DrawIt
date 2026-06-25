@@ -21,7 +21,7 @@ body, html
 .window {
     margin: 2rem;
     width: auto;
-    height: 50%;
+    height: 75%;
     border: 1px solid #2a2a2e;
     border-radius: 10px;       
     overflow: hidden;          
